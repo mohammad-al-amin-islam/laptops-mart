@@ -11,11 +11,25 @@ const Shop = () => {
             .then(data => setItems(data))
     }, []);
 
+
     const handleCartBtn = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
     }
 
+
+    //will choose randomly one laptop
+    const chooseOneButton = () => {
+        const randomItem = cart[Math.floor(Math.random() * cart.length)];
+        const newCart = [randomItem];
+        setCart(newCart);
+    }
+
+    //This will make empty cart
+    const chooseAgainBtn = () => {
+        const newCart = [];
+        setCart(newCart);
+    }
 
     return (
         <div className='shop-container'>
@@ -30,9 +44,9 @@ const Shop = () => {
                     cart.map(item => <Cart key={item.id} item={item}></Cart>)
                 }
                 <div className="button-area">
-                    <button className='cart-button'>Choose one for me</button>
+                    <button onClick={chooseOneButton} className='cart-button'>Choose one for me</button>
                     <br />
-                    <button className='cart-button'>Choose Again</button>
+                    <button onClick={chooseAgainBtn} className='cart-button'>Choose Again</button>
                 </div>
             </div>
         </div>
