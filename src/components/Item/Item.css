@@ -15,8 +15,8 @@
     margin: 0;
 }
 .add-to-cart{
-    text-align: center;
-
+    display: flex;
+    justify-content: center;
 }
 .card-button{
     width: 70%;
@@ -26,7 +26,14 @@
     border: 0;
     cursor: pointer;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-button p {
+    margin-right: 5px;
 }
 .card-button:hover{
     background-color: blueviolet;
+    color: white;
 }
