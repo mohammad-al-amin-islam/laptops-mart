@@ -27,9 +27,12 @@ const Shop = () => {
 
     //will choose randomly one laptop
     const chooseOneButton = () => {
-        const randomItem = cart[Math.floor(Math.random() * cart.length)];
-        const newCart = [randomItem];
-        setCart(newCart);
+        if (cart.length !== 0) {
+            const randomItem = cart[Math.floor(Math.random() * cart.length)];
+            const newCart = [randomItem];
+            setCart(newCart);
+        }
+
     }
 
     //This will make empty cart
