@@ -8,3 +8,44 @@
     gap: 20px;
     margin: 0 20px;
 }
+.cart-area{
+    box-shadow: 2px 2px 20px silver;
+    height: 500px;
+    margin: 0 10px;
+    border-radius: 10px;
+
+}
+.cart-header{
+    text-align: center;
+}
+.button-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-button{
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-button p {
+    margin-right: 5px;
+}
+.cart-button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+@media screen and (max-width:670px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
