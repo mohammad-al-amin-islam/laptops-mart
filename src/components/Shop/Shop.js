@@ -13,8 +13,15 @@ const Shop = () => {
 
 
     const handleCartBtn = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        let newCart = [];
+        const added = cart.find(item => item.id === product.id);
+        if (!added) {
+            if (cart.length !== 4) {
+                newCart = [...cart, product];
+                setCart(newCart);
+            }
+        }
+
     }
 
 

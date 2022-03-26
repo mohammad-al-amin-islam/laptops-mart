@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.question-ans-area{
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 2px 2px 20px silver;
+ 
+}
+.question-ans{
+  padding: 20px 20px;
+}
