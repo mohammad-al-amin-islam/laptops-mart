@@ -1,0 +1,32 @@
+.card{
+    height: 400px;
+    width: 270px;
+    box-shadow: 2px 2px 20px silver;
+    border-radius: 10px;
+}
+.card img{
+    width: 250px;
+    margin: 0 10px;
+}
+.card-details{
+    padding: 0 10px;
+}
+.item-name{
+    margin: 0;
+}
+.add-to-cart{
+    text-align: center;
+
+}
+.card-button{
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+.card-button:hover{
+    background-color: blueviolet;
+}

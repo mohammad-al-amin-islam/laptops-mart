@@ -2,67 +2,55 @@
     {
         "id": "623df57b8d733a26091bd2dd",
         "price": "159,000",
-        "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-mohammad-al-amin-islam/main/src/images/HP%20Envy%2015-ep1890TX.png?token=GHSAT0AAAAAABQIZ4HCD7LBIHOOHEHEGVWIYR57R6A",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/HP%20Envy%2015-ep1890TX.png",
         "name": "HP Envy 15-ep1890TX"
     },
     {
         "id": "623df57b9fdf714a462e2941",
-        "price": "$2,853.60",
-        "img": "http://placehold.it/32x32",
-        "name": "Jillian Woodard"
+        "price": "77,000",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/HP%20ProBook%20450%20G8.png",
+        "name": "HP ProBook 450 G8"
     },
     {
         "id": "623df57ba27af661e6ff69e2",
-        "price": "$2,532.66",
-        "img": "http://placehold.it/32x32",
-        "name": "Bell Battle"
+        "price": "87,600",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/HP%20Pavilion%20Aero%2013-be0345AU.png",
+        "name": "HP Pavilion Aero 13"
     },
     {
         "id": "623df57bb3295d3fc493f92b",
-        "price": "$3,218.59",
-        "img": "http://placehold.it/32x32",
-        "name": "Page Pierce"
+        "price": "50,500",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/HP%2015s-du3022TU.png",
+        "name": "HP 15s-du3022TU"
     },
     {
         "id": "623df57b9b57b1142d818d57",
-        "price": "$3,948.19",
-        "img": "http://placehold.it/32x32",
-        "name": "Carlson Marquez"
+        "price": "37,800",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/HP%2015s-du1117TU.png",
+        "name": "HP 15s-du1117TU"
     },
     {
         "id": "623df57b37c244713d2d3343",
-        "price": "$2,671.47",
-        "img": "http://placehold.it/32x32",
-        "name": "Adriana Haynes"
+        "price": "150000",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/Asus%20VivoBook%20Pro%2016X.png",
+        "name": "Asus VivoBook Pro 16X"
     },
     {
         "id": "623df57b521fd79674208950",
-        "price": "$3,191.87",
-        "img": "http://placehold.it/32x32",
-        "name": "Dixie Mccall"
+        "price": "120,000",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/Asus%20ZenBook%2014%20Flip.png",
+        "name": "Asus ZenBook 14 Flip"
     },
     {
         "id": "623df57bb5d657f31329c53b",
-        "price": "$2,158.20",
-        "img": "http://placehold.it/32x32",
-        "name": "Laurel Cochran"
+        "price": " 85,000",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/Asus%20VivoBook%20Flip%2014.png",
+        "name": "Asus VivoBook Flip 14"
     },
     {
         "id": "623df57bf9578fca15bf6bdd",
-        "price": "$1,971.04",
-        "img": "http://placehold.it/32x32",
-        "name": "Travis Castaneda"
-    },
-    {
-        "id": "623df57b46f7688dfd960883",
-        "price": "$3,045.51",
-        "img": "http://placehold.it/32x32",
-        "name": "Beatrice Gilmore"
-    },
-    {
-        "id": "623df57b56a2d746a6994bc0",
-        "price": "$2,381.10",
-        "img": "http://placehold.it/32x32",
-        "name": "Casey Whitfield"
+        "price": "85,000",
+        "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/images/main/Asus%20VivoBook%2015%20K513EQ.png",
+        "name": "Asus VivoBook 15 K513EQ"
     }
 ]

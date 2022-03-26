@@ -2,9 +2,13 @@
     text-align: center;
     background-color: #224230;
     width: 100%;
-    padding: 10px;
     color: aliceblue;
+    padding: 0;
 }
-.header-area h1{
+.header-name{
     margin: 0;
+    padding-top: 20px;
+}
+.details{
+    padding-bottom:20px ;
 }
