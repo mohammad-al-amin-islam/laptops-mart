@@ -11,7 +11,7 @@ function App() {
       <div className='question-ans-area'>
         <div className="question-ans">
           <h3>How react works?</h3>
-          <p>Ans: React is a javascript library.In react JSX is html like thing but it is actually a syntactic sugar to create javascript object.Bassically react implements a virtual dom.When there is need for some changes its use this virtual dom to compare actually where the changes happened. And Then  update this with the most efficient way. React uses diff algorithm to do this.</p>
+          <p>Ans: React is a javascript library.In react JSX is html like thing but it is actually a syntactic sugar to create javascript object.Basically react implements a virtual dom.When there is need for some changes its use this virtual dom to compare actually where the changes happened. And Then  update this with the most efficient way. React uses diff algorithm to do this.</p>
         </div>
         <div className="question-ans">
           <h3>How useState works?</h3>
